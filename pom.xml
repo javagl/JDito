@@ -20,6 +20,13 @@
 		</developer>
 	</developers>
 
+     <scm>
+          <connection>scm:git:git@github.com:javagl/JDito.git</connection>
+          <developerConnection>scm:git:git@github.com:javagl/JDito.git</developerConnection>
+          <url>git@github.com:javagl/JDito.git</url>
+          <tag>HEAD</tag>
+     </scm>
+
 	<licenses>
 		<license>
 			<name>BSD License</name>
@@ -74,5 +81,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+     <distributionManagement>
+          <snapshotRepository>
+               <id>central</id>
+               <name>Maven Central Snapshots Repository</name>
+               <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+          </snapshotRepository>
+     </distributionManagement>
 
 </project>
