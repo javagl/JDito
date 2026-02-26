@@ -1,6 +1,8 @@
 /.metadata/
 /.ucdetector_reports/
 
+/target
+
 /jdito/target
 /jdito/.project
 /jdito/.settings
